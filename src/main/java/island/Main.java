@@ -23,7 +23,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		Map<Class<? extends Animal>, AnimalConfig> config = new HashMap<>();
 		config.put(Boar.class, new AnimalConfig(400, 50, 10, 50, 2));
 		config.put(Caterpillar.class, new AnimalConfig(0.01, 0, 0, 1000, 0));

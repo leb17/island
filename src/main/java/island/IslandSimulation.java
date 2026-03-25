@@ -6,7 +6,6 @@ import island.model.Island;
 import island.phases.Eating;
 import island.phases.Exhaustion;
 import island.phases.GrowPlants;
-import island.phases.Movement;
 import island.phases.ParallelMovement;
 import island.phases.Reproduction;
 import island.phases.Statistics;
