@@ -7,17 +7,13 @@ Features
  • Movement, eating, reproduction, and starvation mechanics
  • Configurable behavior (speed, energy, limits, probabilities)
  • Food chain via probability matrix (EatMatrix)
- • Thread-safe simulation with:
- • ScheduledExecutorService (tick scheduler)
- • Worker thread pool (parallel processing per cell)
- • Fine-grained locking (synchronized per cell)
+ • Thread-safe simulation with: ScheduledExecutorService, Worker thread pool (parallel processing per cell)
 
 Tech Stack
- • Java 17+
- • Concurrency:
- • ScheduledExecutorService
- • ExecutorService
+ • Java 17
+ • Concurrency: ScheduledExecutorService, ExecutorService
  • OOP design with extensible class hierarchy
+ 
 ⸻
 
 Run
