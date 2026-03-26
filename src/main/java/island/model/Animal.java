@@ -17,7 +17,7 @@ public abstract class Animal extends IslandObject implements Eatable, Reproducib
 	protected Cell currentCell;
 	protected int maxCountOnCell;
 	protected boolean isDead = false;
-	protected boolean alreadyReproduced = false;
+	protected boolean alreadyReproduced;
 
 	protected Animal(AnimalConfig animalConfig) {
 		this.weight = animalConfig.getWeight();
