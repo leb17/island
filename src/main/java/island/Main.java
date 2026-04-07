@@ -85,11 +85,6 @@ public class Main {
 
 		IslandSimulation simulation = new IslandSimulation(island, new Eating(eatTable));
 
-		//single thread
-		//for (int i = 0; i < 3; i++) {
-		//	simulation.run();
-		//}
-
 		SimulationScheduler scheduler = new SimulationScheduler();
 		scheduler.start(simulation);
 	}
